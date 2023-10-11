@@ -45,10 +45,10 @@ the ``example-application`` and all nRF Connect SDK modules will be cloned. Run 
 command:
 
 ```shell
-# initialize my-workspace for the ncs-example-application (main branch)
-west init -m https://github.com/nrfconnect/ncs-example-application --mr main my-workspace
+# initialize kb1 for the ncs-example-application (main branch)
+west init -m git@github.com:StackStomp/keyboard1.git --mr main kb1 
 # update nRF Connect SDK modules
-cd my-workspace
+cd kb1
 west update
 ```
 
